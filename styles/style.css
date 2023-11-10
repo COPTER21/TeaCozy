@@ -1,0 +1,187 @@
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+header {
+  opacity: 1;
+  z-index: 2000;
+}
+.head-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: black;
+  opacity: 1;
+}
+
+.head-nav img {
+  margin-left: 10px;
+  height: 50px;
+}
+
+.header-left-section {
+  height:  100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.header-left-section p {
+  padding-right: 20px;
+}
+
+main {
+  margin-top: 69px;
+  z-index: 0;
+}
+
+.top-mission-sect {
+  background-image: url(../imgs/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.mission-container {
+  width: 100%;
+  padding: 40px;
+}
+
+.top-hit-tea-sect {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.tea-container {
+  /* border: 1px solid red; */
+  margin: 40px;
+  box-sizing: border-box;
+  width: 100%;
+ 
+}
+
+.tea-item-container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.item-top {
+  display: inline-flex;
+  justify-content: space-around;
+
+}
+
+.item-bottom-mock {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.item-bottom {
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  box-sizing: border-box;
+  
+}
+
+.tea-itembox {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-top: 50px;
+
+}
+
+.tea-itembox img {
+  width: 300px;
+  height: 200px;
+}
+
+.tea-itembox h4 {
+  padding: 10px;
+}
+
+.locations-sect {
+  background-image: url(../imgs/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.locations-sect h2 {
+  background-color: transparent;
+  text-align: center;
+  padding: 50px 0 15px 0;
+}
+
+.location-item-container {
+  display: inline-flex;
+  justify-content: space-around;
+  align-content: center;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.location-itembox {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  box-sizing: border-box;
+  padding-top: 20px;
+  opacity: 1;
+
+}
+
+.location-itembox:first-child, .location-itembox:nth-child(2) {
+  margin-right: 40px;
+}
+
+.location {
+  line-height: 80px;
+
+}
+
+
+
+
+
+.contact-sect {
+  height: 200px;
+  /* border: 1px solid rebeccapurple; */
+  line-height: 50px;
+  
+}
+
+
+
+.copy {
+  font-weight: bold;
+  opacity: 0.5;
+  /* border: 1px solid rebeccapurple; */
+  text-align: left;
+  padding: 20px;
+  display: block;
+}
